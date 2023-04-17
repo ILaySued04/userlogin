@@ -4,24 +4,31 @@
 body {
     height: 100vh;
     flex-wrap: wrap;
+    background-color: aliceblue;
 }
 nav {
     background-color: #2A8C82 ;
     height: 40px;
+    display: flex;
+    flex-direction: row;
 }
 
 ul {
     list-style-type: none;
     display: flex ;
-    flex-direction: row;
     justify-content: right;
     gap: 1rem;
     margin-right: 10px;
+    padding: 10px;
 }
 li {
     color: aliceblue;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform:uppercase;
 }
 li:hover {
     cursor: pointer;
     font-size: 20px;
+    color: #92e3a9;
 }
