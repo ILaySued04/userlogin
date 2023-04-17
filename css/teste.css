@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+body {
+    height: 100vh;
+    flex-wrap: wrap;
+}
+nav {
+    background-color: #2A8C82 ;
+    height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex ;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1rem;
+    margin-right: 10px;
+}
+li {
+    color: aliceblue;
+}
+li:hover {
+    cursor: pointer;
+    font-size: 20px;
+}
