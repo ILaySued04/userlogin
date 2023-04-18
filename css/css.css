@@ -122,3 +122,24 @@ h3 {
         
     } 
   }
+  @media only screen and (max-width: 996px) {
+    img {
+        width: 300px;
+        margin-left: 90px;
+
+    }
+    body {
+        gap: 5em;
+    }
+
+    #div-login {
+        display: flex;
+        background-color: #2A8C82;
+        width: 400px;
+        border: 2px solid #2A8C82;
+        border-radius: 25px;
+        justify-content: center;
+        height: 300px;
+        margin-bottom: 40%;
+    }
+  }
